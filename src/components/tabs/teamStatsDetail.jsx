@@ -1,7 +1,12 @@
 import React from 'react';
 
 const TeamStats = (data) => {
-    const instance = data.props;
+    const receiver = data.props;
+    const ta = receiver.ta;
+    const instance =  receiver.pstsg;
+
+    console.log(ta);
+    console.log(instance);
 
     const fgp = (fgm, fga) => {
         if(!fgm){
@@ -46,7 +51,7 @@ const TeamStats = (data) => {
     const url = 'https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/'
 
     const mapPlayer = instance.map((index)=>
-        <tr key={index}>
+        <tr className={ta + '-tr'} key={index}>
             <td className="table-img"><img src={url + index.pid +'.png'} alt={index.ta} /></td>
             <td>{index.num}</td>
             <td className="table-plyr-n">{index.fn[0]}.{index.ln}</td>
@@ -75,7 +80,7 @@ const TeamStats = (data) => {
                 <table>
                     <thead>
                         <tr>
-                            <th> </th>
+                            <th className={ta}>{ta}</th>
                             <th>#</th>
                             <th>Name</th>
                             <th>POS</th>

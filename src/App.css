@@ -8,10 +8,18 @@ This section contains the color schemes for each
   font-weight: bold;
 }
 
+.HOU-tr:hover {
+  background-color: #dd2b35; font-weight: bold;
+}
+
 .SAC {
   background-image: linear-gradient(#663694, #663694, #000000);
   color: black;
   font-weight: bold;
+}
+
+.SAC-tr:hover {
+  background-color: #663694; font-weight: bold;
 }
 
 .App {
@@ -585,12 +593,17 @@ th {
   background-image: linear-gradient(#333, #333, #333, #000000); 
   color: white; 
   font-weight: bold; 
+  border-style : hidden!important;
 }
 
 td, th { 
   padding: 6px; 
   border: 1px solid #ccc; 
   text-align: left; 
+}
+
+td {
+  border-style : hidden!important;
 }
 
 tr:hover {background-color: #808080; font-weight: bold;}

@@ -4,8 +4,8 @@ import './App.css';
 // Reducers
 import GetScoreData from './reducers/ScoreAPI';
 import GetLastPlayData from './reducers/LastPlayAPI';
-// import GetPointLeaders from './reducers/LeadersAPI'; // This was phased out as it is missing team data
-import GetPointLeadersData from './reducers/PointLeadersDataAPI' // This will upgrade LeadersApi
+import GetPointLeadersData from './reducers/PointLeadersDataAPI' // This will upgrade LeadersApi;
+import GetTeamData from './reducers/TeamDataAPI';
 
 // Components
 import ScoreBoard from './components/mainCards/scoreBoard.jsx';
@@ -83,7 +83,8 @@ const displayHomeTeamStats = () => {
 
   setShowGetTickets(false);
   
-  setTeam(data.hls.pstsg);
+  const ht = GetTeamData(data.hls);
+  setTeam(ht);
   // GetTabAnalytics('homeTeam');
   setShowTeamStats(true);
 } 
@@ -97,7 +98,8 @@ const displayAwayTeamStats = () => {
   setLastPlayData(null);
   setPointLeaders(null);
 
-  setTeam(data.vls.pstsg);
+const vt = GetTeamData(data.vls);
+  setTeam(vt);
   // GetTabAnalytics('awayTeam');
   setShowTeamStats(true);
 }

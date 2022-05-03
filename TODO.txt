@@ -1,0 +1,20 @@
+# BoxScore Tab 
+° Need to create switch for Table the rest of the data missing null data switch 
+° Graph needs function for when object returns no data (set both % to 50) 
+° Graph Hover-Over-Effect is slow, need to improve performace and design of displayed message 
+
+
+# Last Play 
+° Coordinates need to be reconfigured to properly handle coordinates -> coordinates are offset behind the hoops
+
+
+# Stats 
+° Css needs work
+
+# Tickets 
+
+# Analytics API 
+Not in action
+
+# CSS 
+° Need to create automation for team color schemas 

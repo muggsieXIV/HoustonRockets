@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HoustonRockets/static/css/main.77f35e99.css",
+    "main.css": "/HoustonRockets/static/css/main.b43dd6bc.css",
     "main.js": "/HoustonRockets/static/js/main.6e84bc75.js",
     "static/media/rocketsCourt.jpeg": "/HoustonRockets/static/media/rocketsCourt.68599a4703db76dd424e.jpeg",
     "static/media/rocketPlayers.png": "/HoustonRockets/static/media/rocketPlayers.7a2fa6403626179386fe.png",
     "static/media/rocketsLogo.png": "/HoustonRockets/static/media/rocketsLogo.4747edf42a771e1910f1.png",
     "index.html": "/HoustonRockets/index.html",
-    "main.77f35e99.css.map": "/HoustonRockets/static/css/main.77f35e99.css.map",
+    "main.b43dd6bc.css.map": "/HoustonRockets/static/css/main.b43dd6bc.css.map",
     "main.6e84bc75.js.map": "/HoustonRockets/static/js/main.6e84bc75.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f35e99.css",
+    "static/css/main.b43dd6bc.css",
     "static/js/main.6e84bc75.js"
   ]
 }

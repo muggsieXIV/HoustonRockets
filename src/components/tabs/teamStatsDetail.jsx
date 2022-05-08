@@ -80,7 +80,7 @@ const TeamStats = (data) => {
                 <table>
                     <thead>
                         <tr>
-                            <th className={ta}>{ta}</th>
+                            <th className={ta + " first-th"}>{ta}</th>
                             <th>#</th>
                             <th>Name</th>
                             <th>POS</th>

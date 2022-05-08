@@ -15,7 +15,7 @@ import BoxScore from './components/tabs/boxScoreDetail';
 import BoxScoreGraph from './components/tabs/boxScoreGraph.jsx';
 import TeamStats from './components/tabs/teamStatsDetail.jsx';
 import Tickets from './components/tabs/tickets.jsx';
-import ListenWatchTab from './components/tabs/listenWatch.jsx';
+import ListenWatchTab from './components/resources/listenWatch.jsx';
 import LastPlayDetail from './components/tabs/lastPlayDetail.jsx';
 
 // Analytics 
